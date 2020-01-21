@@ -102,12 +102,11 @@ header nav #menu .nav-bar .n-item .dropdown-menu {
   margin-right: 50px;
   padding-right: 50px;
 }
-a,
-a:link {
-  position: relative;
-  z-index: 99999;
-}
 .language-dropdown {
   max-width: 20px !important;
   left: 65% !important;
+}
+.logo-main{
+  position: relative;
+  z-index: 99999 !important;
 }

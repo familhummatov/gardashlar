@@ -1,7 +1,9 @@
 #news-internal,
 #about,
 #big-master,
-#company-head {
+#company-head,
+#faq,
+#certificates {
   .new-container {
     padding: 0 15px;
     max-width: 490px;
@@ -14,6 +16,11 @@
       line-height: 20px;
     }
     .owl-carousel {
+      .owl-stage {
+        .owl-item {
+          width: auto !important;
+        }
+      }
       margin: 10px 0 25px 0;
       a {
         font: 14px ProximaNovaRegular;
@@ -26,11 +33,6 @@
       }
       a:hover {
         color: #76a313;
-      }
-      .owl-stage {
-        .owl-item {
-          // width: auto !important;
-        }
       }
       .owl-nav {
         button {

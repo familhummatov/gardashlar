@@ -146,73 +146,48 @@ label {
     }
   }
 }
-
-.brdcrmb-active {
-  color: #848484 !important;
+.accordion-toggle{
+  i{
+    padding-right: 14px;
+    color: #76a313;
+  }
+  color: #3b3b3b;
+  font-size: 14px;
 }
-.test{
-  font-size: 58;
+.accordion-toggle:hover{
+  color: #76a313;
 }
-.test-class {
-  background-color: red;
+.collapsed i{
+    transform: rotate(180deg) !important;
+    color: #3b3b3b !important;
+    padding-right: 0 !important;
+    padding-left: 14px !important;
 }
-
-
-
-.panel-body {
-  padding: 0;
+.panel-body{
+  font-size: 14px;
+  color: #3b3b3b !important;
+  margin-bottom: 15px;
 }
-
-.panel-group .panel+.panel {
-  margin-top: 0;
-  border-top: 0;
+.panel-title{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0 !important;
+  overflow: inherit !important;
+  text-overflow: inherit !important;
+  -webkit-line-clamp: inherit !important;
+  margin-top: 0 !important;
+  display: block !important;
+  color: #3b3b3b !important;
 }
-
-.panel-group .panel {
-  border-radius: 0;
+#accordion .panel:first-child{
+  border-top: 1px solid #e6e4e4;
 }
-
-.panel-default>.panel-heading {
-  color: #333;
-  background-color: #fff;
-  border-color: #e4e5e7;
-  padding: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+.panel{
+  border-bottom: 1px solid #e6e4e4;
 }
-
-.panel-default>.panel-heading a {
-  display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-}
-
-.panel-default>.panel-heading a:after {
-  content: "";
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  float: right;
-  transition: transform .25s linear;
-  -webkit-transition: -webkit-transform .25s linear;
+#accordion{
+  margin-top: 50px;
 }
 
-.panel-default>.panel-heading a[aria-expanded="true"] {
-  background-color: #eee;
-}
 
-.panel-default>.panel-heading a[aria-expanded="true"]:after {
-  content: "\e113";
-}
 
-.panel-default>.panel-heading a[aria-expanded="false"]:after {
-  content: "\e114";
-}

@@ -1,0 +1,103 @@
+@include('./header.html')
+<section id="news-internal">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Xəbərlər</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">Duncan Hunter To Collect Over</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="new-container">
+    <div class="news-date">15.01.20</div>
+    <div class="news-title">
+      <h3>
+        Trump Jr. Shares Bonkers Meme Of His Dad And It Could Terrify Terrify
+      </h3>
+    </div>
+    <div class="news-tags">
+      <div>
+        <a href="#">Tag name1</a>
+        <a href="#">Tag name1</a>
+        <a href="#">Tag name1</a>
+        <a href="#">Tag name1</a>
+      </div>
+    </div>
+    <div class="news-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        debitis provident nulla ratione explicabo quas adipisci cumque
+        doloremque culpa iusto sapiente, distinctio rem quo qui hic ut ipsam
+        sequi est. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Veniam laboriosam at eos porro et, dignissimos, voluptatibus quia
+        quisquam aspernatur recusandae ipsum ipsa ducimus hic enim error minima
+        iusto? Harum, illum! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Alias ratione, minus natus veniam nulla obcaecati vel dolorem
+        provident quo deserunt rem molestiae odit fuga officiis, vero, eum
+        fugiat doloribus ipsum.
+      </p>
+    </div>
+    <div class="news-img">
+      <img src="img/news-internal.png" alt="" />
+    </div>
+    <div class="news-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+        debitis provident nulla ratione explicabo quas adipisci cumque
+        doloremque culpa iusto sapiente, distinctio rem quo qui hic ut ipsam
+        sequi est. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Veniam laboriosam at eos porro et, dignissimos, voluptatibus quia
+        quisquam aspernatur recusandae ipsum ipsa ducimus hic enim error minima
+        iusto? Harum, illum! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Alias ratione, minus natus veniam nulla obcaecati vel dolorem
+        provident quo deserunt rem molestiae odit fuga officiis, vero, eum
+        fugiat doloribus ipsum.
+      </p>
+    </div>
+    <div class="news-video">
+      <iframe
+        src="https://www.youtube.com/embed/t3ISUY0l0WQ"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="news-share">
+      <a href="https://www.facebook.com/">
+        <span>Share:&nbsp;</span> <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+  </div>
+  <div class="slider-container">
+    <hr />
+    <h3 class="another-news">Digər Xəbərlər</h3>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        @include('./news-item.html')
+      </div>
+      <div class="item">
+        @include('./news-item.html')
+      </div>
+      <div class="item">
+        @include('./news-item.html')
+      </div>
+      <div class="item">
+        @include('./news-item.html')
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

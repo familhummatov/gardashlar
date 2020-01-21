@@ -1,0 +1,113 @@
+header {
+  background-color: #0e1911;
+  nav {
+    padding: 15px 42px;
+    #menu {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .social-bar {
+        li:nth-child(1) {
+          padding-left: 2rem;
+        }
+        li {
+          margin: 0;
+          padding-left: 0.5rem;
+          a {
+            i {
+              color: #fff;
+              transition: all 0.3s ease;
+            }
+            i:hover {
+              color: #91c81a;
+            }
+          }
+        }
+      }
+      .nav-bar {
+        margin: auto;
+        .n-item {
+          margin-right: 1.5rem;
+          a {
+            font-family: ProximaNovaRegular;
+            text-transform: uppercase;
+            color: #fff;
+            transition: all 0.3s ease;
+            padding: 0 !important;
+            font-size: 12px;
+          }
+          a:hover {
+            color: #91c81a;
+          }
+          .dropdown-menu {
+            top: 0.7rem !important;
+            background-color: #fff;
+            .dropdown-item {
+              padding-bottom: 0.5rem !important;
+              color: #000;
+              background-color: transparent;
+              text-align: center;
+            }
+            .dropdown-item:hover {
+              color: #91c81a;
+            }
+          }
+        }
+      }
+    }
+
+    .additional-bar {
+      li {
+        margin-left: 0.8125rem;
+      }
+    }
+    button {
+      border: none;
+      outline: none;
+      background: transparent;
+      display: none;
+      i {
+        color: white;
+      }
+    }
+  }
+}
+header {
+  position: relative;
+}
+.dropdown {
+  position: static !important;
+}
+.dropdown-menu {
+  background-color: #0e1911 !important;
+  transform: unset !important;
+  width: 100%;
+}
+header nav #menu .nav-bar .n-item .dropdown-menu {
+  padding-top: 35px !important;
+  top: 37px !important;
+  background-clip: unset;
+  border-radius: 0 !important;
+  border: unset;
+}
+.dropdown-item {
+  color: #d4d4d4 !important;
+}
+.common-dropdown {
+  display: flex;
+  justify-content: center;
+}
+.common-dropdown div:first-child {
+  border-right: solid 0.5px #313131;
+  margin-right: 50px;
+  padding-right: 50px;
+}
+a,
+a:link {
+  position: relative;
+  z-index: 9999;
+}
+.language-dropdown {
+  max-width: 20px !important;
+  left: 65% !important;
+}

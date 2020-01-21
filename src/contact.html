@@ -1,0 +1,91 @@
+@include('./header.html')
+<section id="contact-content">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Əlaqə</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="d-flex justify-content-between responsive-flex">
+      <div class="contact-item">
+        <img src="img/drawable-mdpi/contact1.png" alt="" />
+        <div class="item adress">
+          <h1>Ünvan</h1>
+          <p>
+            AZ 1078, Bakı ş., Həsən Əliyev 12A AZ 1054, Bakı şəhəri, Binəqədi
+            rayonu, Biləcəri qəsəbəsi, Binəqədi şossesi 8F
+          </p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <img src="img/drawable-mdpi/contact2.png" alt="" />
+        <div class="item contact">
+          <h1>Bizimlə əlaqə</h1>
+          <p>
+            Tel: +994 12 401 52 53 <br />
+            Fax: +994 12 401 32 33 <br />
+            info@gardashlar.com
+          </p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <img src="img/drawable-mdpi/contact3.png" alt="" />
+        <div class="item work-time">
+          <h1>İş saatları</h1>
+          <p>
+            I-VI günləri <br />
+            saat 9:00-18:00
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between mt-5 responsive-flex">
+      <div class="aplication-form">
+        <h1>Müraciət formu</h1>
+        <form action="#">
+          <div class="form-item d-flex">
+            <div class="pretty p-default p-round p-smooth">
+              <input type="radio" name="radio1" required />
+              <div class="state p-primary">
+                <label>İrad</label>
+              </div>
+            </div>
+
+            <div class="pretty p-default p-round p-smooth">
+              <input type="radio" name="radio1" required />
+              <div class="state p-primary">
+                <label>Təklif</label>
+              </div>
+            </div>
+          </div>
+          <input type="text" placeholder="Name,Surname" required />
+          <input type="email" placeholder="E-mail" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+            placeholder="Text"
+            required
+          ></textarea>
+          <button type="submit">send</button>
+        </form>
+      </div>
+      <div class="map-section">
+        <div id="map" lat="40.400283" lng="49.839911"></div>
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

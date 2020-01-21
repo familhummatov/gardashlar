@@ -1,0 +1,124 @@
+#contact-content {
+  .brdcrumb {
+    margin-bottom: 42px;
+  }
+  .contact-item {
+    position: relative;
+    width: 32%;
+    height: 213px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      position: absolute;
+      top: 7px;
+      left: 12px;
+    }
+    .item {
+      h1 {
+        font: 24px HoeflerTextBlack;
+        color: #3b3b3b;
+      }
+      p {
+        font: 14px ProximaNovaRegular;
+        color: #3b3b3b;
+      }
+    }
+    .adress {
+      width: 250px;
+    }
+    .contact {
+      width: 160px;
+    }
+    .work-time {
+      width: 125px;
+    }
+  }
+  .aplication-form {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 33%;
+    h1 {
+      font: 24px HoeflerTextBlack;
+      color: #3b3b3b;
+      text-align: center;
+    }
+    form {
+      .form-item {
+        padding: 10px 0;
+        justify-content: space-evenly;
+        .pretty {
+          margin: 0;
+          input {
+            margin: 0;
+          }
+          label {
+            padding-left: 30px;
+            font-family: ProximaNovaRegular;
+            color: #3b3b3b;
+            font-size: 14px;
+            display: flex;
+          }
+          label::before {
+            border: none;
+            transition: none;
+            top: calc((0% - (60% - 1em)) - 8%) !important;
+          }
+          label::after {
+            background-color: #d9d9d9;
+            transition: none;
+            top: calc((0% - (60% - 1em)) - 8%) !important;
+          }
+          input:checked ~ .state.p-primary label:after,
+          .pretty.p-toggle .state.p-primary label:after {
+            background-color: #91c81a !important;
+            animation: none;
+            transition: none;
+          }
+          input:checked ~ .state.p-primary label:before,
+          .pretty.p-toggle .state.p-primary label:before {
+            border: 1px solid #91c81a;
+          }
+        }
+      }
+      input,
+      textarea,
+      button {
+        resize: none;
+        display: flex;
+        margin: auto;
+        border-radius: 15px;
+        outline: none;
+        border: 1px solid #e4e4e4;
+        margin-top: 10px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      textarea {
+        height: 91px !important;
+      }
+      button {
+        margin-top: 30px;
+        width: 110px;
+        height: 30px;
+        justify-content: center;
+        background-color: #91c81a;
+        color: #fff;
+        font: 14px ProximaNovaMedium;
+      }
+    }
+  }
+  .map-section {
+    width: 67%;
+    height: 449px;
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

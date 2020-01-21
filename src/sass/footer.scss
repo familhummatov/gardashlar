@@ -1,0 +1,92 @@
+footer {
+  position: relative;
+  margin-top: 65px;
+  padding-bottom: 23px;
+  //height: 481px;
+  background-color: #0e1911;
+  .p53 {
+    padding-top: 53px;
+    flex-wrap: wrap;
+  }
+  .footer-item {
+    width: 17%;
+    padding-bottom: 32px;
+    margin-right: 34px;
+    .footer-item-title {
+      font: 20px HoeflerTextBlack;
+      color: #acb9bf;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+    }
+    .footer-item-links {
+      li {
+        display: block;
+        a {
+          font: 14px ProximaNovaRegular;
+          line-height: 20px;
+          color: #acb9bf;
+        }
+        a:hover {
+          color: #91c81a;
+        }
+      }
+      .footer-item-link {
+        font: 20px HoeflerTextBlack;
+        color: #acb9bf;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+      }
+      .get-in-touch {
+        span {
+          font-family: ProximaNovaBold;
+        }
+      }
+      .number {
+        color: #91c81a;
+        font: 14px ProximaNovaBold;
+        line-height: 16px;
+      }
+    }
+    .pnb {
+      li {
+        a {
+          font: 14px ProximaNovaBold;
+        }
+      }
+    }
+    .social-bar {
+      .social-bar-item {
+        margin-right: 5px;
+        i {
+          color: #fff;
+          transition: all 0.3s ease;
+        }
+        i:hover {
+          color: #91c81a;
+        }
+      }
+    }
+    .follow-us {
+      padding-top: 32px;
+    }
+  }
+  .copyright {
+    font: 14px ProximaNovaRegular;
+    color: #acb9bf;
+    a {
+      font-family: ProximaNovaBold;
+      color: #91c81a;
+    }
+  }
+  .maskot {
+    position: absolute;
+    right: 22px;
+    bottom: 18px;
+  }
+}

@@ -1,0 +1,207 @@
+#news-internal,
+#about,
+#big-master,
+#company-head {
+  .new-container {
+    padding: 0 15px;
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    .news-date {
+      margin-top: 10px;
+      font: 14px ProximaNovaMedium;
+      color: #3b3b3b;
+      line-height: 20px;
+    }
+    .owl-carousel {
+      margin: 10px 0 25px 0;
+      a {
+        font: 14px ProximaNovaRegular;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #3b3b3b;
+      }
+      a:hover {
+        color: #76a313;
+      }
+      .owl-stage {
+        .owl-item {
+          // width: auto !important;
+        }
+      }
+      .owl-nav {
+        button {
+          position: absolute;
+          top: 7px;
+          outline: none;
+          width: 14px;
+          height: 14px;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: auto !important;
+            margin: 0;
+          }
+        }
+        .owl-prev {
+          left: -35px;
+        }
+        .owl-next {
+          right: -35px;
+        }
+        button:hover {
+          background-color: transparent;
+        }
+      }
+    }
+    h3 {
+      font-weight: 900 !important;
+      margin-top: 8px;
+      font: 30px HoeflerTextBlack;
+      color: #3b3b3b;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: block-axis;
+      display: -webkit-box;
+      line-height: 36px;
+    }
+    h4 {
+      margin-bottom: 15px;
+      font-weight: 900 !important;
+      margin-top: 35px;
+      font: 18px HoeflerTextBlack;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: block-axis;
+      display: -webkit-box;
+      object-fit: contain;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #2a2a2a;
+    }
+    h5 {
+      font: 14px ProximaNovaRegular;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      color: #3b3b3b;
+    }
+    ul {
+      padding-left: 15px;
+      margin-bottom: 10px;
+      list-style: disc;
+      li {
+        margin: 5px 0;
+        display: list-item;
+        list-style-type: disc;
+        font: 14px ProximaNovaRegular;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 21px;
+        letter-spacing: normal;
+        color: #2a2a2a;
+      }
+    }
+    .news-tags {
+      margin-top: 10px;
+      border: 1px solid #cfd8dc;
+      display: inline-block;
+      padding: 5px;
+      div {
+        display: flex;
+      }
+      a {
+        font-family: ProximaNovaRegular;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: #afb8bb;
+        padding: 0 5px;
+      }
+    }
+    p {
+      margin: 12px 0;
+      font: 14px ProximaNovaRegular;
+      color: #3b3b3b;
+      margin-bottom: 0;
+      line-height: 20px;
+    }
+    img {
+      margin: 15px 0;
+      width: 100%;
+      object-fit: cover;
+    }
+    iframe {
+      margin-top: 30px;
+      width: 100%;
+      height: 250px;
+    }
+    .news-share {
+      margin-top: 35px;
+      a {
+        font: 14px ProximaNovaSemiBold;
+        color: #3b3b3b;
+        line-height: 18px;
+      }
+    }
+  }
+  .slider-container {
+    padding: 0 15px;
+    max-width: 1014px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    .another-news {
+      font: 30px HoeflerTextBlack;
+      color: #3b3b3b;
+    }
+    .news-item {
+      width: 100% !important;
+      .news-btn {
+        img {
+          display: inline-block;
+          width: auto;
+        }
+      }
+    }
+    .owl-carousel {
+      .owl-nav {
+        button {
+          cursor: pointer;
+          position: absolute;
+          top: 22%;
+          background-color: #e6eff3;
+          width: 34px;
+          height: 34px;
+          border-radius: 50%;
+          outline: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+        }
+        .owl-prev {
+          left: -7%;
+        }
+        .owl-next {
+          right: -7%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.partners-container {
+  max-width: 898px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  h3 {
+    font: 30px HoeflerTextBlack;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #3b3b3b;
+  }
+  a {
+    font: 14px ProximaNovaRegular;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3b3b3b;
+  }
+  .owl-stage {
+    width: 100% !important;
+  }
+  .partner-items {
+    display: flex;
+    flex-wrap: wrap;
+    .partner-item {
+      margin: 10px 10px 10px 0;
+      width: 23%;
+      height: 187px;
+      background-color: #f0f0f0;
+      display: flex;
+      img {
+        margin: auto;
+      }
+    }
+  }
+}

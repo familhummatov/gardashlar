@@ -60,7 +60,7 @@ $(".new-container .owl-carousel").owlCarousel({
     '<img src="img/left-arrow.png"/>',
     '<img src="img/right-arrow.png"/>'
   ],
-  
+
   items: 3
 });
 $(".certifiates-container .owl-carousel").owlCarousel({
@@ -73,4 +73,16 @@ $(".certifiates-container .owl-carousel").owlCarousel({
     '<img src="img/right-arrow.png"/>'
   ],
   items: 4
+});
+$(".partners-container .owl-carousel").owlCarousel({
+  loop: false,
+  margin: 20,
+  nav: true,
+  dots: false,
+  navText: [
+    '<img src="img/left-arrow.png"/>',
+    '<img src="img/right-arrow.png"/>'
+  ],
+  autoWidth: true,
+  items: 6
 });

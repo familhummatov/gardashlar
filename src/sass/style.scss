@@ -179,15 +179,130 @@ label {
   display: block !important;
   color: #3b3b3b !important;
 }
+
 #accordion .panel:first-child{
   border-top: 1px solid #e6e4e4;
 }
+
 .panel{
   border-bottom: 1px solid #e6e4e4;
 }
+
 #accordion{
   margin-top: 50px;
 }
 
+.similar-products .owl-prev span{
+  margin-bottom: 3px;
+}
 
-
+.similar-products .owl-next span{
+  margin-bottom: 3px;
+}
+.experience{
+  overflow: inherit !important;
+  position: relative;
+}
+.experience i{
+  position: absolute;
+  left: -25px;
+  color: #76a313;
+  font-size: 14px;
+}
+.main-heading{
+    font-weight: 900!important;
+    margin-top: 8px;
+    font: 24px HoeflerTextBlack !important;
+    color: #3b3b3b;
+    overflow: inherit !important;
+    text-overflow: inherit !important;
+    -webkit-line-clamp: inherit !important;
+    -webkit-box-orient: inherit !important;
+    display: block;
+    line-height: 25px !important;
+}
+.consultation{
+  margin-bottom: 50px;
+}
+.consul-ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.consul-ul ul{
+  padding-left: 0 !important;
+}
+.common-form{
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  max-width: 242px;
+  margin-top: 100px;
+}
+.common-input{
+  border-radius: 15px;
+  border: solid 1px #e4e4e4;
+  width: 100%;
+  padding: 3px 0 3px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #3b3b3b;
+  font-size: 14px;
+  letter-spacing: 0.32px;
+  font-family: ProximaNovaRegular;
+}
+.common-input::placeholder{
+  color: #3b3b3b;
+  font-size: 14px;
+  letter-spacing: 0.32px;
+  font-family: ProximaNovaRegular;
+}
+.common-textarea{
+  border-radius: 15px;
+  border: solid 1px #e4e4e4;
+  width: 100%;
+  padding: 3px 0 3px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 91px;
+  resize: none;
+  color: #3b3b3b;
+  font-size: 14px;
+  letter-spacing: 0.32px;
+  font-family: ProximaNovaRegular;
+}
+.common-textarea::placeholder{
+  color: #3b3b3b;
+  font-size: 14px;
+  font-family: ProximaNovaRegular;
+}
+.common-input:focus{
+  outline: none;
+}
+.common-textarea:focus{
+  outline: none;
+}
+.input-submit{
+  border-radius: 15px;
+  background-color: #91c81a;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: ProximaNovaRegular;
+  padding: 4px 40px;
+}
+.submit-div{
+  width: 100%;
+  text-align: center;
+}
+.common-form h3{
+  text-align: center;
+  display: block !important;
+}
+.big-section{
+  max-width: 1258px;
+ position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -62,4 +62,9 @@ $(document).ready(function() {
       .attr("src");
     $(".big-galleri-image").attr("src", srcImg1);
   });
+  $(".letters div a").click(function () {
+    $(".letters div a").removeClass("active");
+    $(this).addClass("active");        
+});
+  
 });

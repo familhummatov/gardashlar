@@ -1,7 +1,10 @@
 $(document).ready(function() {
-  zoomables = {
-    container1: new ImageZoom(".big-gallery img", { maxZoom: 4 })
-  };
+  if ($(".big-galleri-image").length > 0) {
+    zoomables = {
+      container1: new ImageZoom(".big-gallery img", { maxZoom: 4 })
+    };
+  }
+
   $(".dropdown").hover(function() {
     $(this).toggleClass("show");
     $(this)

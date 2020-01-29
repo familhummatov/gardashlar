@@ -1,5 +1,8 @@
 #products,
-#news {
+#faq,
+#news,
+#mass-media-2,
+.suggestion-section {
   .my-container {
     max-width: 1100px;
     margin-left: auto;
@@ -209,7 +212,7 @@
       }
     }
   }
-  #pagination {
+  .pagination {
     display: flex;
     justify-content: center;
     margin-top: 60px;
@@ -218,7 +221,7 @@
       display: flex;
       border: 1px solid #e0e0e0;
       border-radius: 31px;
-      width: 158px;
+
       height: 26px;
       justify-content: space-between;
       a {
@@ -228,11 +231,19 @@
           display: flex;
         }
       }
-      .pagination {
-        width: 90px;
+      .pagination-ul {
+        list-style: none;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 0;
+        li {
+          list-style-type: none;
+        }
         .pagination-item {
+          padding: 0 5px;
           a {
             display: flex;
             align-items: center;

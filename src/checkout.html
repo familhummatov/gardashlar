@@ -1,0 +1,50 @@
+@include('./header.html')
+
+<section class="common-section suggestion-section">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">Checkout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="new-container">
+    <h3>Checkout</h3>
+    <div class="suggest-form">
+      <form action="#" method="POST">
+        <input type="text" class="common-input" placeholder="Name, Surname">
+        <input type="text" class="common-input" placeholder="E-mail">
+        <input type="text" class="common-input" placeholder="Phone number">
+        <input type="text" class="common-input" placeholder="Address">
+        <div class="submit-div checkout-div ">
+          <input type="submit" class="input-submit" value="send">
+        </div>
+      </form>
+    </div>
+    <div class="suggestion-answer checkout-answer">
+      <div class="form-contents">
+          <div class="form-icon">
+            <i class="fa fa-check"></i>
+          </div>
+          <div class="form-text">
+            Müraciətiniz göndərildi.
+Təşəkkür edirik.
+          </div>
+          <a href="">
+            <div class="close-icon">
+                <i class="fa fa-times"></i>
+            </div>
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

@@ -41,6 +41,7 @@ gulp.task("html", () => {
     .pipe(browserSync.stream());
 });
 
+
 gulp.task("img", () => {
   return gulp
     .src("src/img/**/*")
@@ -60,4 +61,3 @@ gulp.task("watch", () => {
   gulp.watch("src/img/**/*", gulp.series("img"));
   gulp.watch("src/**/*.html", gulp.series("html"));
 });
-

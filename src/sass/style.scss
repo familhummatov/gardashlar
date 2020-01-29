@@ -146,30 +146,30 @@ label {
     }
   }
 }
-.accordion-toggle{
-  i{
+.accordion-toggle {
+  i {
     padding-right: 14px;
     color: #76a313;
   }
   color: #3b3b3b;
   font-size: 14px;
 }
-.accordion-toggle:hover{
+.accordion-toggle:hover {
   color: #76a313;
 }
-.collapsed i{
-    transform: rotate(180deg) !important;
-    color: #3b3b3b !important;
-    padding-right: 0 !important;
-    padding-left: 14px !important;
+.collapsed i {
+  transform: rotate(180deg) !important;
+  color: #3b3b3b !important;
+  padding-right: 0 !important;
+  padding-left: 14px !important;
 }
-.panel-body{
+.panel-body {
   font-size: 14px;
   color: #3b3b3b !important;
   margin-bottom: 15px;
   font-family: ProximaNovaRegular;
 }
-.panel-title{
+.panel-title {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-bottom: 0 !important;
@@ -181,59 +181,59 @@ label {
   color: #3b3b3b !important;
 }
 
-#accordion .panel:first-child{
+#accordion .panel:first-child {
   border-top: 1px solid #e6e4e4;
 }
 
-.panel{
+.panel {
   border-bottom: 1px solid #e6e4e4;
 }
 
-#accordion{
+#accordion {
   margin-top: 50px;
 }
 
-.similar-products .owl-prev span{
+.similar-products .owl-prev span {
   margin-bottom: 3px;
 }
 
-.similar-products .owl-next span{
+.similar-products .owl-next span {
   margin-bottom: 3px;
 }
-.experience{
+.experience {
   overflow: inherit !important;
   position: relative;
 }
-.experience i{
+.experience i {
   position: absolute;
   left: -25px;
   color: #76a313;
   font-size: 14px;
 }
-.main-heading{
-    font-weight: 900!important;
-    margin-top: 8px;
-    font: 24px HoeflerTextBlack !important;
-    color: #3b3b3b;
-    overflow: inherit !important;
-    text-overflow: inherit !important;
-    -webkit-line-clamp: inherit !important;
-    -webkit-box-orient: inherit !important;
-    display: block;
-    line-height: 25px !important;
+.main-heading {
+  font-weight: 900 !important;
+  margin-top: 8px;
+  font: 24px HoeflerTextBlack !important;
+  color: #3b3b3b;
+  overflow: inherit !important;
+  text-overflow: inherit !important;
+  -webkit-line-clamp: inherit !important;
+  -webkit-box-orient: inherit !important;
+  display: block;
+  line-height: 25px !important;
 }
-.consultation{
+.consultation {
   margin-bottom: 50px;
 }
-.consul-ul{
+.consul-ul {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
 }
-.consul-ul ul{
+.consul-ul ul {
   padding-left: 0 !important;
 }
-.common-form{
+.common-form {
   position: sticky;
   top: 0px;
   width: 242px;
@@ -241,11 +241,11 @@ label {
   margin-top: 100px;
   height: 276px;
 }
-.sticky{
+.sticky {
   position: sticky;
   top: 100px;
 }
-.common-input{
+.common-input {
   border-radius: 15px;
   border: solid 1px #e4e4e4;
   width: 100%;
@@ -257,13 +257,13 @@ label {
   letter-spacing: 0.32px;
   font-family: ProximaNovaRegular;
 }
-.common-input::placeholder{
+.common-input::placeholder {
   color: #3b3b3b;
   font-size: 14px;
   letter-spacing: 0.32px;
   font-family: ProximaNovaRegular;
 }
-.common-textarea{
+.common-textarea {
   border-radius: 15px;
   border: solid 1px #e4e4e4;
   width: 100%;
@@ -277,18 +277,18 @@ label {
   letter-spacing: 0.32px;
   font-family: ProximaNovaRegular;
 }
-.common-textarea::placeholder{
+.common-textarea::placeholder {
   color: #3b3b3b;
   font-size: 14px;
   font-family: ProximaNovaRegular;
 }
-.common-input:focus{
+.common-input:focus {
   outline: none;
 }
-.common-textarea:focus{
+.common-textarea:focus {
   outline: none;
 }
-.input-submit{
+.input-submit {
   border-radius: 15px;
   background-color: #91c81a;
   color: #ffffff;
@@ -298,24 +298,24 @@ label {
   font-family: ProximaNovaRegular;
   padding: 4px 40px;
 }
-.submit-div{
+.submit-div {
   width: 100%;
   text-align: center;
 }
-.common-form h3{
+.common-form h3 {
   text-align: center;
   display: block !important;
 }
-.big-section{
+.big-section {
   display: flex;
   max-width: 990px;
   margin-left: auto;
   margin-right: 9%;
 }
-.second-main{
+.second-main {
   margin-top: 40px;
 }
-.form-answer{
+.form-answer {
   max-width: 277px;
   background-color: #91c81a;
   padding: 24px 40px;
@@ -324,65 +324,63 @@ label {
   position: sticky;
   top: 0px;
 }
-.form-contents{
+.form-contents {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-.form-text{
+.form-text {
   width: 84%;
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: normal;
   color: #ffffff;
   margin-left: 5px;
-  
 }
-.form-icon{
+.form-icon {
   width: 8%;
   margin-right: 5px;
 }
-.form-icon i{
+.form-icon i {
   color: white;
 }
-.form-icon i{
-  -webkit-text-stroke: 1px #91C81A;
+.form-icon i {
+  -webkit-text-stroke: 1px #91c81a;
 }
-.close-icon{
+.close-icon {
   position: absolute;
   top: 2px;
   right: 9px;
 }
-.close-icon i{
+.close-icon i {
   font-size: 12px;
   color: white;
 }
-.suggest-form{
+.suggest-form {
   max-width: 302px;
   margin-top: 20px;
 }
-.suggest-head{
+.suggest-head {
   margin-top: 20px !important;
 }
-.suggest-textarea{
+.suggest-textarea {
   height: 131px;
 }
-.twin-input .common-input{
+.twin-input .common-input {
   width: 48%;
 }
-.twin-input{
+.twin-input {
   display: flex;
   justify-content: space-between;
 }
-.suggest-form-radio{
+.suggest-form-radio {
   margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  .suggest-form-title{
+  .suggest-form-title {
     width: 35%;
-    font:14px ProximaNovaRegular;
+    font: 14px ProximaNovaRegular;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -425,20 +423,20 @@ label {
     }
   }
 }
-.radio-inputs{
+.radio-inputs {
   margin-top: 15px;
   margin-bottom: 17px;
   padding-left: 8px;
 }
-.suggest-text{
-    font:14px ProximaNovaRegular;
-    letter-spacing: 0.32px;
-    color: #3b3b3b;
-    padding-left: 14px;
-    display: block;
-    margin-top: 10px;
+.suggest-text {
+  font: 14px ProximaNovaRegular;
+  letter-spacing: 0.32px;
+  color: #3b3b3b;
+  padding-left: 14px;
+  display: block;
+  margin-top: 10px;
 }
-.downloaded-file{
+.downloaded-file {
   width: 48%;
   border-radius: 15px;
   border: solid 1px #e4e4e4;
@@ -451,35 +449,35 @@ label {
   font-family: ProximaNovaRegular;
   position: relative;
 }
-.downloaded-files{
+.downloaded-files {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
 }
-.downloaded-file i{
+.downloaded-file i {
   position: absolute;
   right: 12px;
   top: 6px;
   color: #3b3b3b;
 }
-.downloaded-file i{
+.downloaded-file i {
   -webkit-text-stroke: 1px white;
 }
-.downloaded-file a{
+.downloaded-file a {
   color: #3b3b3b;
 }
-.file-input{
+.file-input {
   height: 27px;
   width: 36%;
   border-radius: 15px;
   opacity: 0;
 }
-.upload-input-div{
+.upload-input-div {
   position: relative;
   margin-bottom: 50px;
   margin-top: 15px;
 }
-.upload-span{
+.upload-span {
   position: absolute;
   display: block;
   top: -4px;
@@ -496,24 +494,23 @@ label {
   background: #a7bec8;
   pointer-events: none;
 }
-.suggestion-answer{
+.suggestion-answer {
   max-width: 277px;
   background-color: #91c81a;
   padding: 24px 40px;
   position: relative;
   margin-top: 50px;
 }
-.letters{
+.letters {
   display: flex;
   align-items: baseline;
 }
-.letters div{
+.letters div {
   padding-right: 3px;
   padding-left: 3px;
   font-family: ProximaNovaRegular;
-  
 }
-.letters div a{
+.letters div a {
   font-family: ProximaNovaRegular;
   font-size: 14px;
   font-weight: normal;
@@ -523,49 +520,49 @@ label {
   letter-spacing: 2.3px;
   color: #3b3b3b;
 }
-.letters .active{
+.letters .active {
   color: #76a313;
   font-size: 24px;
   font-weight: bold;
 }
-.it-text{
+.it-text {
   margin-top: 15px;
 }
-.vacation strong{
+.vacation strong {
   padding-right: 15px;
 }
-.vacation{
+.vacation {
   width: 48%;
 }
-.vacations{
+.vacations {
   display: flex;
   justify-content: space-between;
 }
-.vacation-text{
+.vacation-text {
   font-size: 14px;
   color: #3b3b3b;
   margin-bottom: 5px;
   font-family: ProximaNovaRegular;
 }
-.news-share{
-  span{
+.news-share {
+  span {
     font-family: ProximaNovaRegular;
   }
-  a{
+  a {
     font-family: ProximaNovaRegular;
   }
-  span i{
+  span i {
     font-family: ProximaNovaRegular;
     color: #3b3b3b;
   }
   font-family: ProximaNovaRegular;
 }
-.vacancies-container{
+.vacancies-container {
   max-width: 1078px;
   margin-left: auto;
   margin-right: auto;
 }
-.vacancy{
+.vacancy {
   max-width: 529px;
   padding: 25px 45px;
   border: solid 1px rgba(178, 178, 178, 0.99);
@@ -573,18 +570,18 @@ label {
   margin-bottom: 10px;
   height: fit-content;
 }
-.vacancy-div{
+.vacancy-div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 40px;
 }
-.vacancy-head{
+.vacancy-head {
   margin-top: 30px;
   font-family: HoeflerTextBlack;
 }
-.vacancy{
-  h3{
+.vacancy {
+  h3 {
     font-family: HoeflerTextBlack;
     font-size: 16px !important;
     font-weight: 900;
@@ -594,7 +591,7 @@ label {
     letter-spacing: normal;
     color: #353535;
   }
-  .it-text{
+  .it-text {
     font-family: ProximaNovaRegular;
     font-size: 14px;
     font-weight: normal;
@@ -615,7 +612,7 @@ label {
     color: #3b3b3b;
   }
 }
-.vacancy-salary{
+.vacancy-salary {
   font-family: ProximaNovaRegular;
   font-size: 16px;
   font-weight: bold;
@@ -626,7 +623,7 @@ label {
   text-align: center;
   color: #91c81a;
 }
-.vacancy-title{
+.vacancy-title {
   font-family: HoeflerTextBlack;
   font-size: 18px;
   font-weight: 900;
@@ -638,6 +635,9 @@ label {
   margin-bottom: 0;
   display: block;
 }
-.vacany-heading{
+.vacany-heading {
   margin-bottom: 36px;
+}
+.brdcrmb-active {
+  color: #848484 !important;
 }

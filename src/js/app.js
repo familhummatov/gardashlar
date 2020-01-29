@@ -1,13 +1,18 @@
 $(document).ready(function() {
 
   $('.private-projects .owl-carousel').owlCarousel({
-    items:3,
+   
     loop:true,
     margin:10,
     merge:true,
+    dots:false,
     responsive:{
-        678:{
-            mergeFit:true
+      0:{
+        items:1
+      },
+        768:{
+            mergeFit:true,
+            items:3
         },
         1000:{
             mergeFit:false

@@ -1,0 +1,52 @@
+@include('./header.html')
+<section id="cart-checkout">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Səbət</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Checkout</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="checkout-container">
+    <h3>Checkout</h3>
+    <form action="#" method="POST">
+      <input type="text" name="" id="" placeholder="Name,Surname" />
+      <input type="email" name="" id="" placeholder="E-mail" />
+      <input type="number" name="" id="" placeholder="Phone Number" />
+      <input type="text" name="" id="" placeholder="Address" />
+      <div class="send-btn">
+        <button type="submit">send</button>
+      </div>
+    </form>
+    <div class="suggestion-answer">
+      <div class="form-contents">
+        <div class="form-icon">
+          <i class="fa fa-check"></i>
+        </div>
+        <div class="form-text">
+          Müraciətiniz göndərildi. Təşəkkür edirik.
+        </div>
+        <a href="">
+          <div class="close-icon">
+            <i class="fa fa-times"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

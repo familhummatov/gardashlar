@@ -77,26 +77,8 @@
         <p class="product-width">Width: <span>59 cm</span></p>
         <p class="product-depth">Depth: <span>57 cm</span></p>
         <p class="product-seat">Seat Height: <span>80 cm</span></p>
-        <div class="product-color">
-          Colors
-          <div class="color-radio">
-            <div class="colors"></div>
-          </div>
-          <div class="color-radio">
-            <div class="colors"></div>
-          </div>
-          <div class="color-radio">
-            <div class="colors"></div>
-          </div>
-        </div>
-        <div class="product-quantity">
-          Quantity
-          <div class="counter">
-            <span class="decrement">-</span>
-            <span class="count">2</span>
-            <span class="increment">+</span>
-          </div>
-        </div>
+        @include('./item-color-bar.html') 
+        @include('./quantity-bar.html')
         <p class="product-delivery">Delivery: <span>1 - 3</span> days</p>
         <div class="d-flex">
           <span class="favorite-btn"><i class="far fa-heart"></i></span>

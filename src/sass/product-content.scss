@@ -99,50 +99,11 @@
       .product-depth {
         margin-bottom: 2px;
       }
-      .product-color {
-        font: 14px ProximaNovaRegular;
-        margin-top: 15px;
-        display: flex;
-        align-items: center;
-        .color-radio {
-          border: 1px solid #b2b2b2;
-          margin-left: 7px;
-          padding: 2px;
-          cursor: pointer;
-          .colors {
-            width: 18px;
-            height: 18px;
-            background-color: red;
-          }
-        }
+      .color-bar {
+        margin-top: 7px;
+        justify-content: start !important;
       }
-      .product-quantity {
-        display: flex;
-        font: 14px ProximaNovaRegular;
-        align-items: center;
-        margin-top: 14px;
-        .counter {
-          margin-left: 11px;
-          border: 1px solid #b2b2b2;
-          border-radius: 31px;
-          width: 66px;
-          display: flex;
-          justify-content: space-evenly;
-          height: 26px;
-          align-items: center;
-          .decrement {
-            cursor: pointer;
-          }
-          .count {
-            width: 25px;
-            display: flex;
-            justify-content: center;
-          }
-          .increment {
-            cursor: pointer;
-          }
-        }
-      }
+    
       .product-delivery {
         margin-top: 28px;
         font: 14px ProximaNovaSemiBold;

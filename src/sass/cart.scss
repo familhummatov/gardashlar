@@ -1,0 +1,92 @@
+#cart {
+  .cart-container {
+    max-width: 854px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+  .cart-title {
+    margin-top: 15px;
+    font: 30px HoeflerTextBlack;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #3b3b3b;
+  }
+  .clear-bag-btn {
+    transition: all 0.3s ease;
+    background-color: #b2b2b2;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 16px;
+    font: 14px ProximaNovaRegular;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 10px;
+      margin-right: 5px;
+    }
+  }
+  .clear-bag-btn:hover {
+    background-color: #91c81a;
+  }
+  .delivery {
+    h4 {
+      font: 16px ProximaNovaRegular;
+      font-weight: bold !important;
+      font-stretch: normal !important;
+      font-style: normal !important;
+      line-height: 1.31 !important;
+      letter-spacing: normal !important;
+      color: #2a2a2a;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 0 !important;
+      max-width: 335px;
+      font: 14px ProximaNovaRegular;
+      font-size: 14px;
+      font-weight: normal !important;
+      font-stretch: normal !important;
+      font-style: normal !important;
+      line-height: 1.5 !important;
+      letter-spacing: normal !important;
+      color: #2a2a2a;
+    }
+  }
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .checkout-btn {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding: 5px 32px;
+      border: none;
+      outline: none;
+      border-radius: 15px;
+      background-color: #91c81a;
+      font: 14px ProximaNovaRegular;
+      font-weight: 500;
+      font-stretch: normal !important;
+      font-style: normal !important;
+      line-height: normal !important;
+      letter-spacing: normal !important;
+      color: #ffffff;
+    }
+  }
+}

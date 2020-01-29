@@ -1,0 +1,60 @@
+@include('./header.html')
+<section id="projects">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">Özəl Layihələr</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="projects-container-1">
+    <div class="project-sum">
+      <span>10 PROJECTS</span>
+    </div>
+    <h3>Özəl Layihələr</h3>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><a href="#">Usta xidməti</a></div>
+      <div class="item"><a href="#">Özəl sifarişlər</a></div>
+      <div class="item"><a href="#">Özəl layihələr</a></div>
+      <div class="item"><a href="#">Konsultasiya xidməti</a></div>
+      <div class="item"><a href="#">Planlama xidməti</a></div>
+    </div>
+    <p>
+      Qardaşlar mebel şirkəti olaraq istənilən layihələrin kompleks həllini və
+      açar təslimini həyata keçirmək bacarığını dəfələrlə nümayiş etdirmişik.
+      Biz həm təqdim olunmuş texniki tapşırığı əsasında layihələrin icrasını
+      həyata keçirir, həm də müştərinin tələbləri əsasında layihələr üçün
+      kompleks həll yolları təqdim edirik. Qardaşlar mebel olaraq balansımızda
+      dövlət və özəl sektorlar üçün uğurla yerinə yetirdiyimiz yüzlərlə layihə
+      vardır.
+    </p>
+  </div>
+  <div class="projects-container-2">
+    <div class="project-items">
+      <div class="row mr-0 ml-0">
+        <div class="col-md-4 col-sm-6 col-12 p00">
+          @include('./project-item.html')
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 p00">
+          @include('./project-item.html')
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 p00">
+          @include('./project-item.html')
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 p00">
+          @include('./project-item.html')
+        </div>
+      </div>
+    </div>
+  </div>
+  @include('./pagination.html')
+</section>
+@include('./footer.html')

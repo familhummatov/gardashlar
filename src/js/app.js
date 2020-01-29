@@ -72,23 +72,16 @@ $(document).ready(function() {
   $(".clear-button").click(function() {
     $('.category-item input[type="checkbox"]').prop("checked", false);
   });
-  $(".owl-stage .active .item img").mouseover(function() {
-    console.log(this.id);
-    // $("#" + this.id).elevateZoom({
-    //   zoomType: "inner",
-    //   cursor: "crosshair"
-    // });
-  });
 
   $(".decrement").click(function() {
-    var count = parseInt($(".count").text());
-    if (count > 0) {
-      $(".count").text(count - 1);
+    var x = parseInt(this.parentElement.children[1].innerText);
+    if (x > 0) {
+      this.parentElement.children[1].innerText = x - 1;
     }
   });
   $(".increment").click(function() {
-    var count = parseInt($(".count").text());
-    $(".count").text(count + 1);
+    var x = parseInt(this.parentElement.children[1].innerText) + 1;
+    this.parentElement.children[1].innerText = x;
   });
 
   $(".galeri-image").click(function() {

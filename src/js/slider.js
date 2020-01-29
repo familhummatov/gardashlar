@@ -51,7 +51,33 @@ $(".slider-container .owl-carousel").owlCarousel({
   }
 });
 
-$(".new-container .owl-carousel").owlCarousel({
+$(
+  ".new-container .owl-carousel, .projects-container-1 .owl-carousel"
+).owlCarousel({
+  loop: false,
+  margin: 20,
+  nav: true,
+  dots: false,
+  navText: [
+    '<img src="img/left-arrow.png"/>',
+    '<img src="img/right-arrow.png"/>'
+  ],
+  items: 3
+});
+$(".certifiates-container .owl-carousel").owlCarousel({
+  loop: false,
+  margin: 20,
+  nav: true,
+  dots: false,
+  navText: [
+    '<img src="img/left-arrow.png"/>',
+    '<img src="img/right-arrow.png"/>'
+  ],
+  items: 3
+});
+$(
+  ".partners-container .owl-carousel, .media-container-1 .owl-carousel , #mass-media-2 .owl-carousel "
+).owlCarousel({
   loop: false,
   margin: 20,
   nav: true,

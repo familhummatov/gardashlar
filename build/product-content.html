@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link href="css/image_zoom.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <title>gardashlar.com</title>
+  </head>
+
+  <body>
+   <header>
+    <div class="m-container">
+      <nav class="d-flex align-items-center justify-content-between">
+        <a class="logo-main" href="index.html"><img src="img/logo.svg" alt=""></a>
+        <div id="menu">
+          <ul class="social-bar d-flex align-items-center">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+          <ul class="nav-bar">
+            <li class="n-item dropdown">
+              <a class="dropdown-toggle" href="furnitures.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Mebellər
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="common-dropdown">
+                  <div class="dropdown-div">
+                    <a class="dropdown-item " href="furnitures.html">Mebellər</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                  <div class="dropdown-div">
+                    <a class="dropdown-item" href="furnitures.html">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="n-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Xidmətlər
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="common-dropdown">
+                  <div class="dropdown-div">
+                    <a class="dropdown-item" href="news.html">Xəbərlər</a>
+                    <a class="dropdown-item" href="#">Xəbərlər</a>
+                  </div>
+                  <div class="dropdown-div">
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="n-item">
+              <a href="#">Mebel bloq <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="n-item">
+              <a href="#">Vakansiyalar</a>
+            </li>
+            <li class="n-item">
+              <a href="contact.html">Əlaqə</a>
+            </li>
+            <li class="n-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Az
+              </a>
+              <div class="dropdown-menu language-dropdown" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">En</a>
+                <a class="dropdown-item" href="#">Ru</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="additional-bar d-flex align-items-center">
+          <li>
+            <a id="search-button" href="#"><img src="img/search.svg" alt=""></i></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/heart.svg" alt=""></i></a>
+          </li>
+          <li>
+            <a href="cart.html"><img src="img/cart.svg" alt=""></a>
+          </li>
+        </ul>
+        <button id="toggle-button">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+      </div>
+      
+  </header> 
+  <div id="search-tab">
+    <div class="my-container">
+      <h1>What are you looking for?</h1>
+      <div class="popular-search">
+        <span>Popular search:</span>
+        <span>
+          <a href="#">Uşaq mebelləri</a>
+        </span>
+        <span>
+          <a href="#">Qonaq otağı mebeli</a>
+        </span>
+        <span>
+          <a href="#">Bağ mebelləri</a>
+        </span>
+        <span>
+          <a href="#">Mətbəx mebelləri</a>
+        </span>
+      </div>
+      <div class="search-input">
+        <input type="text" placeholder="Type here" />
+      </div>
+      <div class="search-btn d-flex justify-content-end">
+        <a href="#">search <img src="img/search.svg" alt=""></a>
+      </div>
+    </div>
+    <span id="close-btn"><img src="img/close-btn.svg" alt=""></i></span>
+  </div>
+  <ul id="accordion-menu" class="static-menu">
+    <li>
+      <div class="link">Mebellər</div>
+      <ul class="sub-menu">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+      </ul>
+    </li>
+    <li>
+      <div class="link">Xidmətlər</div>
+      <ul class="sub-menu">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+      </ul>
+    </li>
+    <li><a class="link">Mebel bloq</a></li>
+    <li><a class="link">Vakansiyalar</a></li>
+    <li><a class="link">Əlaqə</a></li>
+  </ul>
+<div id="product-content">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Mebellər</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Yataq Dəstləri</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Kramfors Yataq Dəsti</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="product-slider-info row">
+    <div class="col-lg-5 p00">
+      <div class="big-gallery">
+        <img class="big-galleri-image" src="img/bed3x.png" alt="" />
+        <a href="" class="search-plus"><img src="img/group_14.svg" alt=""/></a>
+      </div>
+      <div class="big-galleries">
+        <div class="galeri-image">
+          <a href="javascript: void(0)"
+            ><img
+              src="https://images.unsplash.com/photo-1579225426792-c92375f35989?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+          /></a>
+        </div>
+        <div class="galeri-image">
+          <a href="javascript: void(0)"
+            ><img
+              src="https://images.unsplash.com/photo-1579199055589-1f9c1f00a8fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
+              alt=""
+          /></a>
+        </div>
+        <div class="galeri-image">
+          <a href="javascript: void(0)"
+            ><img
+              src="https://images.unsplash.com/photo-1579206458586-c07f03f76892?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1086&q=80"
+              alt=""
+          /></a>
+        </div>
+        <div class="galeri-image">
+          <a href="javascript: void(0)"
+            ><img
+              src="https://images.unsplash.com/photo-1579206458586-c07f03f76892?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1086&q=80"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+    <div class="product-info col-lg-6">
+      <div class="d-flex justify-content-between">
+        <span class="title-span">Yataq Dəstləri</span>
+        <a href=""
+          ><span class="share-span"
+            >Share: &nbsp; &nbsp;<i class="fab fa-facebook-f"></i></span
+        ></a>
+      </div>
+      <div class="product-details">
+        <h1>Kramfors Yataq Dəsti</h1>
+        <p class="firstchild">
+          360° Lightshow And Sound Take your listening experience to the next
+          level with the JBL Pulse 3, the portable, waterproof Bluetooth speaker
+          that combines 360° sound with 360° lightshow. Bring your music
+        </p>
+        <p class="product-height">Height: <span>82 cm</span></p>
+        <p class="product-width">Width: <span>59 cm</span></p>
+        <p class="product-depth">Depth: <span>57 cm</span></p>
+        <p class="product-seat">Seat Height: <span>80 cm</span></p>
+        <div class="color-bar">
+  <span>Colors</span>
+  <div class="pretty p-default">
+    <input type="radio" name="color" />
+    <div class="state" style="background-color: red;">
+      <label></label>
+    </div>
+  </div>
+  <div class="pretty p-default">
+    <input type="radio" name="color" />
+    <div class="state" style="background-color: red;">
+      <label></label>
+    </div>
+  </div>
+  <div class="pretty p-default">
+    <input type="radio" name="color" />
+    <div class="state" style="background-color: red;">
+      <label></label>
+    </div>
+  </div>
+</div>
+ 
+        <div class="product-quantity">
+  Quantity
+  <div class="counter">
+    <span class="decrement">-</span>
+    <span class="count">2</span>
+    <span class="increment">+</span>
+  </div>
+</div>
+
+        <p class="product-delivery">Delivery: <span>1 - 3</span> days</p>
+        <div class="d-flex">
+          <span class="favorite-btn"><i class="far fa-heart"></i></span>
+          <span class="add-to-bag-btn">add to bag</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="similar-products">
+  <div class="container">
+    <div class="product-sum">
+      <span>89 products</span>
+    </div>
+    <div class="similar-products-title">
+      <a href="#"> Oxşar Məhsullar <span class="lnr lnr-arrow-right"></span></a>
+    </div>
+    <ul class="similar-product-links">
+      <li><a href="#">Toplantı masaları</a></li>
+      <li><a href="#">Toplantı masaları</a></li>
+      <li><a href="#">Toplantı masaları</a></li>
+      <li><a href="#">Toplantı masaları</a></li>
+    </ul>
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <a href="#">
+          <div class="product-item">
+            <span>NEW</span>
+            <img src="img/2019_12_04_14_58_46.jpg" alt="" />
+            <svg
+              class="zoom-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".56"
+                    d="M15.307 11.308c0-2.126-1.755-3.831-3.902-3.831-2.165 0-3.901 1.723-3.901 3.831 0 2.127 1.755 3.832 3.901 3.832 2.147.018 3.902-1.705 3.902-3.832zM18.2 17.67l-.336.33-3.547-3.483a4.44 4.44 0 0 1-2.93 1.1C8.96 15.617 7 13.692 7 11.308 7 8.925 8.96 7 11.387 7c2.426 0 4.386 1.925 4.386 4.308 0 1.1-.429 2.109-1.12 2.879L18.2 17.67z"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M14 11.493c0 .101-.016.207-.048.317-.031.11-.075.165-.13.165H11.97v1.846c0 .055-.054.099-.163.13a1.151 1.151 0 0 1-.327.049c-.091 0-.193-.016-.307-.048-.114-.032-.17-.076-.17-.131v-1.846H9.177c-.054 0-.098-.055-.13-.165A1.142 1.142 0 0 1 9 11.493c0-.1.016-.209.048-.324.031-.114.075-.172.13-.172h1.825V9.165c0-.046.054-.085.163-.117.11-.032.214-.048.314-.048.109 0 .218.014.327.041.109.028.163.07.163.124v1.832h1.853c.054 0 .098.06.13.18.031.119.047.224.047.316z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <svg
+              class="favorite-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <path
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                  d="M17.095 8.9a3.1 3.1 0 0 0-4.367 0L12 9.624l-.728-.724a3.1 3.1 0 0 0-4.367 0 3.06 3.06 0 0 0 0 4.344l.728.724L12 18.313l4.367-4.345.728-.724a3.06 3.06 0 0 0 0-4.344zm-2.183 5.068L12 16.865l-2.911-2.897-1.456-1.448a2.04 2.04 0 0 1 0-2.896c.804-.8 2.107-.8 2.911 0L12 11.072l1.456-1.448c.804-.8 2.108-.8 2.911 0a2.04 2.04 0 0 1 0 2.896l-1.455 1.448z"
+                />
+              </g>
+            </svg>
+            <svg
+              class="chart-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".1"
+                    d="M9.82 9.939c.135 1.077.26 2.128.4 3.177.065.48.272.645.782.646 1.883.004 3.765.004 5.647 0 .555 0 .741-.162.811-.696.062-.47.114-.942.168-1.413.064-.565.124-1.13.188-1.714H9.821zM8.569 8.01H7v-.936h2.478l.225 1.881h9.236c-.074.65-.141 1.25-.212 1.851-.1.856-.185 1.713-.311 2.565-.12.807-.685 1.319-1.525 1.328-2.036.022-4.074.023-6.11 0-.867-.011-1.459-.607-1.566-1.48-.208-1.685-.41-3.37-.616-5.054-.004-.037-.014-.073-.031-.155z"
+                  />
+                  <path
+                    d="M11.951 16.668c-.008.522-.462.943-1.005.93-.545-.012-.976-.44-.97-.966.006-.521.456-.957.988-.956a.98.98 0 0 1 .987.992M17.942 16.652c-.01.518-.463.948-.999.947-.532-.002-.99-.444-.99-.956 0-.53.475-.98 1.02-.966.533.013.978.462.97.975"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M7 11.994c0 .081-.013.166-.038.254-.026.088-.06.132-.104.132H5.376v1.477c0 .044-.044.079-.13.104a.92.92 0 0 1-.262.039.91.91 0 0 1-.246-.039c-.09-.025-.136-.06-.136-.104V12.38h-1.46c-.044 0-.078-.044-.104-.132A.914.914 0 0 1 3 11.994c0-.08.013-.167.038-.258.026-.092.06-.138.104-.138h1.46v-1.466c0-.036.044-.068.131-.093a.886.886 0 0 1 .25-.039c.088 0 .175.011.262.033.087.022.131.055.131.1v1.465h1.482c.044 0 .078.048.104.143a1 1 0 0 1 .038.253z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="product-text">
+            <div class="product-name">
+              <h3>Product name</h3>
+            </div>
+            <div class="see-more-btn">
+              <a href="#"
+                >see more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="5"
+                  viewBox="0 0 16 5"
+                >
+                  <path
+                    fill="#3B3B3B"
+                    fill-rule="nonzero"
+                    d="M13.545 0l-.936.954.856.872H0v1.348h13.465l-.856.872.936.954L16 2.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="product-item">
+            <span>NEW</span>
+            <img src="img/2019_12_04_14_58_46.jpg" alt="" />
+            <svg
+              class="zoom-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".56"
+                    d="M15.307 11.308c0-2.126-1.755-3.831-3.902-3.831-2.165 0-3.901 1.723-3.901 3.831 0 2.127 1.755 3.832 3.901 3.832 2.147.018 3.902-1.705 3.902-3.832zM18.2 17.67l-.336.33-3.547-3.483a4.44 4.44 0 0 1-2.93 1.1C8.96 15.617 7 13.692 7 11.308 7 8.925 8.96 7 11.387 7c2.426 0 4.386 1.925 4.386 4.308 0 1.1-.429 2.109-1.12 2.879L18.2 17.67z"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M14 11.493c0 .101-.016.207-.048.317-.031.11-.075.165-.13.165H11.97v1.846c0 .055-.054.099-.163.13a1.151 1.151 0 0 1-.327.049c-.091 0-.193-.016-.307-.048-.114-.032-.17-.076-.17-.131v-1.846H9.177c-.054 0-.098-.055-.13-.165A1.142 1.142 0 0 1 9 11.493c0-.1.016-.209.048-.324.031-.114.075-.172.13-.172h1.825V9.165c0-.046.054-.085.163-.117.11-.032.214-.048.314-.048.109 0 .218.014.327.041.109.028.163.07.163.124v1.832h1.853c.054 0 .098.06.13.18.031.119.047.224.047.316z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <svg
+              class="favorite-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <path
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                  d="M17.095 8.9a3.1 3.1 0 0 0-4.367 0L12 9.624l-.728-.724a3.1 3.1 0 0 0-4.367 0 3.06 3.06 0 0 0 0 4.344l.728.724L12 18.313l4.367-4.345.728-.724a3.06 3.06 0 0 0 0-4.344zm-2.183 5.068L12 16.865l-2.911-2.897-1.456-1.448a2.04 2.04 0 0 1 0-2.896c.804-.8 2.107-.8 2.911 0L12 11.072l1.456-1.448c.804-.8 2.108-.8 2.911 0a2.04 2.04 0 0 1 0 2.896l-1.455 1.448z"
+                />
+              </g>
+            </svg>
+            <svg
+              class="chart-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".1"
+                    d="M9.82 9.939c.135 1.077.26 2.128.4 3.177.065.48.272.645.782.646 1.883.004 3.765.004 5.647 0 .555 0 .741-.162.811-.696.062-.47.114-.942.168-1.413.064-.565.124-1.13.188-1.714H9.821zM8.569 8.01H7v-.936h2.478l.225 1.881h9.236c-.074.65-.141 1.25-.212 1.851-.1.856-.185 1.713-.311 2.565-.12.807-.685 1.319-1.525 1.328-2.036.022-4.074.023-6.11 0-.867-.011-1.459-.607-1.566-1.48-.208-1.685-.41-3.37-.616-5.054-.004-.037-.014-.073-.031-.155z"
+                  />
+                  <path
+                    d="M11.951 16.668c-.008.522-.462.943-1.005.93-.545-.012-.976-.44-.97-.966.006-.521.456-.957.988-.956a.98.98 0 0 1 .987.992M17.942 16.652c-.01.518-.463.948-.999.947-.532-.002-.99-.444-.99-.956 0-.53.475-.98 1.02-.966.533.013.978.462.97.975"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M7 11.994c0 .081-.013.166-.038.254-.026.088-.06.132-.104.132H5.376v1.477c0 .044-.044.079-.13.104a.92.92 0 0 1-.262.039.91.91 0 0 1-.246-.039c-.09-.025-.136-.06-.136-.104V12.38h-1.46c-.044 0-.078-.044-.104-.132A.914.914 0 0 1 3 11.994c0-.08.013-.167.038-.258.026-.092.06-.138.104-.138h1.46v-1.466c0-.036.044-.068.131-.093a.886.886 0 0 1 .25-.039c.088 0 .175.011.262.033.087.022.131.055.131.1v1.465h1.482c.044 0 .078.048.104.143a1 1 0 0 1 .038.253z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="product-text">
+            <div class="product-name">
+              <h3>Product name</h3>
+            </div>
+            <div class="see-more-btn">
+              <a href="#"
+                >see more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="5"
+                  viewBox="0 0 16 5"
+                >
+                  <path
+                    fill="#3B3B3B"
+                    fill-rule="nonzero"
+                    d="M13.545 0l-.936.954.856.872H0v1.348h13.465l-.856.872.936.954L16 2.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="product-item">
+            <span>NEW</span>
+            <img src="img/2019_12_04_14_58_46.jpg" alt="" />
+            <svg
+              class="zoom-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".56"
+                    d="M15.307 11.308c0-2.126-1.755-3.831-3.902-3.831-2.165 0-3.901 1.723-3.901 3.831 0 2.127 1.755 3.832 3.901 3.832 2.147.018 3.902-1.705 3.902-3.832zM18.2 17.67l-.336.33-3.547-3.483a4.44 4.44 0 0 1-2.93 1.1C8.96 15.617 7 13.692 7 11.308 7 8.925 8.96 7 11.387 7c2.426 0 4.386 1.925 4.386 4.308 0 1.1-.429 2.109-1.12 2.879L18.2 17.67z"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M14 11.493c0 .101-.016.207-.048.317-.031.11-.075.165-.13.165H11.97v1.846c0 .055-.054.099-.163.13a1.151 1.151 0 0 1-.327.049c-.091 0-.193-.016-.307-.048-.114-.032-.17-.076-.17-.131v-1.846H9.177c-.054 0-.098-.055-.13-.165A1.142 1.142 0 0 1 9 11.493c0-.1.016-.209.048-.324.031-.114.075-.172.13-.172h1.825V9.165c0-.046.054-.085.163-.117.11-.032.214-.048.314-.048.109 0 .218.014.327.041.109.028.163.07.163.124v1.832h1.853c.054 0 .098.06.13.18.031.119.047.224.047.316z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <svg
+              class="favorite-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <path
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                  d="M17.095 8.9a3.1 3.1 0 0 0-4.367 0L12 9.624l-.728-.724a3.1 3.1 0 0 0-4.367 0 3.06 3.06 0 0 0 0 4.344l.728.724L12 18.313l4.367-4.345.728-.724a3.06 3.06 0 0 0 0-4.344zm-2.183 5.068L12 16.865l-2.911-2.897-1.456-1.448a2.04 2.04 0 0 1 0-2.896c.804-.8 2.107-.8 2.911 0L12 11.072l1.456-1.448c.804-.8 2.108-.8 2.911 0a2.04 2.04 0 0 1 0 2.896l-1.455 1.448z"
+                />
+              </g>
+            </svg>
+            <svg
+              class="chart-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".1"
+                    d="M9.82 9.939c.135 1.077.26 2.128.4 3.177.065.48.272.645.782.646 1.883.004 3.765.004 5.647 0 .555 0 .741-.162.811-.696.062-.47.114-.942.168-1.413.064-.565.124-1.13.188-1.714H9.821zM8.569 8.01H7v-.936h2.478l.225 1.881h9.236c-.074.65-.141 1.25-.212 1.851-.1.856-.185 1.713-.311 2.565-.12.807-.685 1.319-1.525 1.328-2.036.022-4.074.023-6.11 0-.867-.011-1.459-.607-1.566-1.48-.208-1.685-.41-3.37-.616-5.054-.004-.037-.014-.073-.031-.155z"
+                  />
+                  <path
+                    d="M11.951 16.668c-.008.522-.462.943-1.005.93-.545-.012-.976-.44-.97-.966.006-.521.456-.957.988-.956a.98.98 0 0 1 .987.992M17.942 16.652c-.01.518-.463.948-.999.947-.532-.002-.99-.444-.99-.956 0-.53.475-.98 1.02-.966.533.013.978.462.97.975"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M7 11.994c0 .081-.013.166-.038.254-.026.088-.06.132-.104.132H5.376v1.477c0 .044-.044.079-.13.104a.92.92 0 0 1-.262.039.91.91 0 0 1-.246-.039c-.09-.025-.136-.06-.136-.104V12.38h-1.46c-.044 0-.078-.044-.104-.132A.914.914 0 0 1 3 11.994c0-.08.013-.167.038-.258.026-.092.06-.138.104-.138h1.46v-1.466c0-.036.044-.068.131-.093a.886.886 0 0 1 .25-.039c.088 0 .175.011.262.033.087.022.131.055.131.1v1.465h1.482c.044 0 .078.048.104.143a1 1 0 0 1 .038.253z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="product-text">
+            <div class="product-name">
+              <h3>Product name</h3>
+            </div>
+            <div class="see-more-btn">
+              <a href="#"
+                >see more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="5"
+                  viewBox="0 0 16 5"
+                >
+                  <path
+                    fill="#3B3B3B"
+                    fill-rule="nonzero"
+                    d="M13.545 0l-.936.954.856.872H0v1.348h13.465l-.856.872.936.954L16 2.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="product-item">
+            <span>NEW</span>
+            <img src="img/2019_12_04_14_58_46.jpg" alt="" />
+            <svg
+              class="zoom-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".56"
+                    d="M15.307 11.308c0-2.126-1.755-3.831-3.902-3.831-2.165 0-3.901 1.723-3.901 3.831 0 2.127 1.755 3.832 3.901 3.832 2.147.018 3.902-1.705 3.902-3.832zM18.2 17.67l-.336.33-3.547-3.483a4.44 4.44 0 0 1-2.93 1.1C8.96 15.617 7 13.692 7 11.308 7 8.925 8.96 7 11.387 7c2.426 0 4.386 1.925 4.386 4.308 0 1.1-.429 2.109-1.12 2.879L18.2 17.67z"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M14 11.493c0 .101-.016.207-.048.317-.031.11-.075.165-.13.165H11.97v1.846c0 .055-.054.099-.163.13a1.151 1.151 0 0 1-.327.049c-.091 0-.193-.016-.307-.048-.114-.032-.17-.076-.17-.131v-1.846H9.177c-.054 0-.098-.055-.13-.165A1.142 1.142 0 0 1 9 11.493c0-.1.016-.209.048-.324.031-.114.075-.172.13-.172h1.825V9.165c0-.046.054-.085.163-.117.11-.032.214-.048.314-.048.109 0 .218.014.327.041.109.028.163.07.163.124v1.832h1.853c.054 0 .098.06.13.18.031.119.047.224.047.316z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <svg
+              class="favorite-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <path
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                  d="M17.095 8.9a3.1 3.1 0 0 0-4.367 0L12 9.624l-.728-.724a3.1 3.1 0 0 0-4.367 0 3.06 3.06 0 0 0 0 4.344l.728.724L12 18.313l4.367-4.345.728-.724a3.06 3.06 0 0 0 0-4.344zm-2.183 5.068L12 16.865l-2.911-2.897-1.456-1.448a2.04 2.04 0 0 1 0-2.896c.804-.8 2.107-.8 2.911 0L12 11.072l1.456-1.448c.804-.8 2.108-.8 2.911 0a2.04 2.04 0 0 1 0 2.896l-1.455 1.448z"
+                />
+              </g>
+            </svg>
+            <svg
+              class="chart-btn"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle cx="12" cy="12" r="12" fill="#BFCDD3" />
+                <g fill="#FFF">
+                  <path
+                    stroke="#FFF"
+                    stroke-width=".1"
+                    d="M9.82 9.939c.135 1.077.26 2.128.4 3.177.065.48.272.645.782.646 1.883.004 3.765.004 5.647 0 .555 0 .741-.162.811-.696.062-.47.114-.942.168-1.413.064-.565.124-1.13.188-1.714H9.821zM8.569 8.01H7v-.936h2.478l.225 1.881h9.236c-.074.65-.141 1.25-.212 1.851-.1.856-.185 1.713-.311 2.565-.12.807-.685 1.319-1.525 1.328-2.036.022-4.074.023-6.11 0-.867-.011-1.459-.607-1.566-1.48-.208-1.685-.41-3.37-.616-5.054-.004-.037-.014-.073-.031-.155z"
+                  />
+                  <path
+                    d="M11.951 16.668c-.008.522-.462.943-1.005.93-.545-.012-.976-.44-.97-.966.006-.521.456-.957.988-.956a.98.98 0 0 1 .987.992M17.942 16.652c-.01.518-.463.948-.999.947-.532-.002-.99-.444-.99-.956 0-.53.475-.98 1.02-.966.533.013.978.462.97.975"
+                  />
+                  <path
+                    fill-rule="nonzero"
+                    d="M7 11.994c0 .081-.013.166-.038.254-.026.088-.06.132-.104.132H5.376v1.477c0 .044-.044.079-.13.104a.92.92 0 0 1-.262.039.91.91 0 0 1-.246-.039c-.09-.025-.136-.06-.136-.104V12.38h-1.46c-.044 0-.078-.044-.104-.132A.914.914 0 0 1 3 11.994c0-.08.013-.167.038-.258.026-.092.06-.138.104-.138h1.46v-1.466c0-.036.044-.068.131-.093a.886.886 0 0 1 .25-.039c.088 0 .175.011.262.033.087.022.131.055.131.1v1.465h1.482c.044 0 .078.048.104.143a1 1 0 0 1 .038.253z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="product-text">
+            <div class="product-name">
+              <h3>Product name</h3>
+            </div>
+            <div class="see-more-btn">
+              <a href="#"
+                >see more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="5"
+                  viewBox="0 0 16 5"
+                >
+                  <path
+                    fill="#3B3B3B"
+                    fill-rule="nonzero"
+                    d="M13.545 0l-.936.954.856.872H0v1.348h13.465l-.856.872.936.954L16 2.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container h-100 p00">
+    <div class="p53 d-flex">
+      <div class="footer-item">
+        <div class="footer-item-title">Mebellər</div>
+        <ul class="footer-item-links">
+          <li><a href="#">Ofis mebelləri</a></li>
+          <li><a href="#">Uşaq mebelləri</a></li>
+          <li><a href="#">Qonaq otağı mebeli</a></li>
+          <li><a href="#">Bağ mebelləri</a></li>
+          <li><a href="#">Mətbəx mebelləri</a></li>
+          <li><a href="#">Bağça mebelləri</a></li>
+          <li><a href="#">Yataq otağı mebeli</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class="footer-item-title">Xidmətlər</div>
+        <ul class="footer-item-links">
+          <li><a href="master-service.html">Usta xidməti</a></li>
+          <li><a href="special-orders.html">Özəl sifarişlər</a></li>
+          <li><a href="projects.html">Özəl layihələr</a></li>
+          <li><a href="consultation.html">Konsultasiya xidməti</a></li>
+          <li><a href="planning.html">Planlama xidməti</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class=" footer-item-title">Müştərilərə</div>
+
+        <ul class="footer-item-links">
+          <li><a href="#">Müştəri davranış qaydaları</a></li>
+          <li><a href="#">Müştəri hüquqları</a></li>
+          <li><a href="#">Çatdırılma və ödəniş</a></li>
+          <li><a href="#">Terminalogiya</a></li>
+          <li><a href="#">Zəmanət şərtləri</a></li>
+          <li><a href="#">Tez-tez verilən suallar</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class="footer-item-title">
+          Korporativ <br />
+          Əməkdaşlıq
+        </div>
+        <ul class="footer-item-links">
+          <li><a href="#">Tərəfdaş ol</a></li>
+          <li><a href="#">İnvestorlara</a></li>
+          <li><a href="partners.html">Tərəfdaşlar</a></li>
+          <li><a href="#">Yer Təklif et</a></li>
+          <li><a href="#">Beynəlxalq Əlaqələr</a></li>
+          <li><a href="#">Bütün</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class="footer-item-title">Need help?</div>
+        <ul class="footer-item-links">
+          <li>
+            <a class="get-in-touch" href="#"
+              >Get in touch with <span>Gardashlar!</span></a
+            >
+          </li>
+          <li><span class="number">+994 12 401 52 53</span></li>
+        </ul>
+        <div class="follow-us footer-item-title">
+          Follow us
+        </div>
+        <ul class="social-bar">
+          <li>
+            <a class="social-bar-item" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-bar-item" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-bar-item" href="#"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a class="social-bar-item" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class="footer-item-title">Haqqımızda</div>
+
+        <ul class="footer-item-links">
+          <li><a href="about.html">Şirkət Haqqında</a></li>
+          <li><a href="certificates.html">Uğurlar / Sertifikatlar</a></li>
+          <li><a href="company-head.html">Şirkət Rəhbərinin Müraciəti</a></li>
+          <li><a href="big-master.html">Böyük Usta</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <div class="footer-item-title">Media Mərkəzi</div>
+        <ul class="footer-item-links pnb">
+          <li><a href="news.html">Xəbərlər</a></li>
+          <li><a href="mass-media-1.html">KİV üçün</a></li>
+        </ul>
+      </div>
+      <div class="footer-item">
+        <ul class="footer-item-links">
+          <li><a class="footer-item-link" href="#">Mebel Bloq</a></li>
+          <li><a class="footer-item-link" href="#">Vakansiyalar</a></li>
+          <li><a class="footer-item-link" href="#">Əlaqə</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      Name &copy; 2019 All Right Reserved. Developed by <a href="">Webcoder</a>
+    </div>
+  </div>
+
+  <div class="maskot"><img src="img/drawable-mdpi/3_2_x.png" alt="" /></div>
+</footer>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"
+></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjx4YG7E7thIRo6L6wnhcATgWXf8ldHOc&callback=initMap">
+</script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/image_zoom.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+</html>

@@ -71,9 +71,9 @@ $(document).ready(function() {
       .find(".dropdown-menu")
       .toggleClass("show");
   });
-  $("#toggle-button").click(function() {
-    $("#menu").toggleClass("navbar-toggle");
-  });
+  // $("#toggle-button").click(function() {
+  //   $("#menu").toggleClass("navbar-toggle");
+  // });
 
   $("#category-btn").click(function() {
     $(".category-nav").toggleClass("category-bar-toggle");

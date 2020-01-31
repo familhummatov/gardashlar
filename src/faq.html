@@ -1,5 +1,4 @@
 @include('./header.html')
-
 <section id="faq">
   <div class="brdcrumb">
     <ul class="breadcrumbs">
@@ -18,13 +17,8 @@
   </div>
   <div class="new-container">
     <h3>Tez-tez verilən suallar</h3>
-    <div class="owl-carousel owl-theme">
-      <div class="item"><a href="#">Uğurlar / Sertifikatlar</a></div>
-      <div class="item"><a href="#">Şirkət Rəhbərinin Müraciəti</a></div>
-      <div class="item"><a href="#">Böyük Usta</a></div>
-      <div class="item"><a href="#">Şirkət Haqqında</a></div>
-      <div class="item"><a href="#">Böyük Usta</a></div>
-      <div class="item"><a href="#">Şirkət Haqqında</a></div>
+    <div class="about-slider-nav">
+      @include('./slider-navbar.html')
     </div>
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
@@ -75,44 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="pagination">
-        <div class="sub-pagination">
-          <a class="pagination-link" aria-label="Previous" href="#">
-            <span aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="7" viewBox="0 0 8 7">
-                <path fill="#717171" fill-rule="nonzero" d="M8 2.917H2.286l2-2.042L3.429 0 0 3.5 3.429 7l.857-.875-2-2.042H8z"></path>
-              </svg>
-            </span>
-          </a>
-          <ul class="pagination-ul">
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">1</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
-            </li>
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">5</a>
-            </li>
-            <li class="pagination-item">
-                <a class="pagination-link" href="#">...</a>
-              </li>
-          </ul>
-          <a class="pagination-link" aria-label="Next" href="#">
-            <span aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="7" viewBox="0 0 8 7">
-                <path fill="#717171" fill-rule="nonzero" d="M0 2.917h5.714l-2-2.042L4.571 0 8 3.5 4.571 7l-.857-.875 2-2.042H0z"></path>
-              </svg>
-            </span>
-          </a>
-        </div>
-      </div>
+      @include('./pagination.html')
   </div>
 </section>
 @include('./footer.html')

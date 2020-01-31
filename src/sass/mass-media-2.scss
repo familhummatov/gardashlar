@@ -68,38 +68,34 @@
         height: 100%;
         object-fit: cover;
       }
-      .download-btn {
-        width: 30px;
-        height: 30px;
+      button {
+        transition: all 0.3s ease;
+        color: #fff;
         background-color: #bfcdd3;
-        position: absolute;
-        bottom: 9px;
-        right: 7px;
+        border: none;
+        outline: none;
         border-radius: 15px;
+        position: absolute;
+        right: 7px;
         display: flex;
+        height: 26px;
         align-items: center;
         justify-content: center;
-        transition: width 0.3s;
-        span {
-          font: 14px ProximaNovaRegular;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: normal;
-          letter-spacing: normal;
-          color: #ffffff;
-          display: none;
+        img {
+          width: 14px;
         }
       }
-      .download-btn:hover {
+      .download-button {
+        bottom: 9px;
+        .downloaded {
+          display: none;
+          color: white;
+          font: 14px ProximaNovaMedium;
+          background: transparent !important;
+        }
+      }
+      .download-button:hover {
         background-color: #91c81a;
-        width: 100px;
-        span {
-          display: unset;
-        }
-        img {
-          margin-right: 5px;
-        }
       }
     }
   }

@@ -1,0 +1,80 @@
+.similar-products {
+  margin-top: 50px;
+  max-width: 1132px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  .product-sum {
+    font: 14px SourceSansProSemiBold;
+    color: #fff;
+    text-transform: uppercase;
+    span {
+      background-color: #91c81a;
+      padding: 3px 12px;
+    }
+    margin-bottom: 13px;
+  }
+  .similar-products-title {
+    font: 33px HoeflerTextBlack;
+    height: 45px;
+    a {
+      display: flex;
+      align-items: center;
+      color: #3b3b3b;
+      img {
+        margin-left: 5px;
+      }
+    }
+  }
+  .similar-product-links {
+    height: 37px;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    li {
+      margin-right: 14px;
+      a {
+        font: 14px ProximaNovaRegular;
+        color: #3b3b3b;
+      }
+    }
+  }
+  .owl-carousel {
+    .product-item {
+      width: auto;
+    }
+    .owl-nav {
+      button {
+        cursor: pointer;
+        position: absolute;
+        top: 33%;
+        background-color: #e6eff3;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+      .owl-prev {
+        left: -7%;
+      }
+      .owl-next {
+        right: -7%;
+      }
+    }
+    .owl-dots {
+      margin-top: 2rem;
+      display: none;
+      button {
+        outline: none;
+      }
+    }
+  }
+}

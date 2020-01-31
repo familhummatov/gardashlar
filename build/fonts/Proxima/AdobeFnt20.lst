@@ -1,0 +1,149 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-Medium
+FamilyName:Proxima Nova
+StyleName:Medium
+MenuName:Proxima Nova Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:ProximaNova-Medium
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/ProximaNova-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:522220
+FileModTime:514961136
+NameArray:0,Mac,4,Proxima Nova Medium
+NameArray:0,Win,1,Proxima Nova Medium
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-ExtraBold
+FamilyName:Proxima Nova
+StyleName:ExtraBold
+MenuName:Proxima Nova Extrabold
+StyleBits:0
+WeightClass:800
+WidthClass:5
+AngleClass:0
+FullName:ProximaNova-ExtraBold
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/ProximaNova-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:456400
+FileModTime:514961112
+NameArray:0,Mac,4,Proxima Nova ExtraBold
+NameArray:0,Win,1,Proxima Nova Extrabold
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-Bold
+FamilyName:Proxima Nova
+StyleName:Bold
+MenuName:Proxim Nova Regular
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:ProximaNova-Bold
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/ProximaNova-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:476624
+FileModTime:514961103
+NameArray:0,Mac,4,Proxima Nova Bold
+NameArray:0,Win,1,Proxim Nova Regular
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-SemiBold
+FamilyName:Proxima Nova
+StyleName:SemiBold
+MenuName:Proxima Nova Semibold
+StyleBits:0
+WeightClass:600
+WidthClass:5
+AngleClass:0
+FullName:ProximaNova-SemiBold
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/ProximaNova-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:502060
+FileModTime:514961150
+NameArray:0,Mac,4,Proxima Nova SemiBold
+NameArray:0,Win,1,Proxima Nova Semibold
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:FuturaNewBold-Reg
+FamilyName:Futura New
+StyleName:Bold
+MenuName:Futura New Bold
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Futura New Bold Reg
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/FuturaNewBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:137776
+FileModTime:231693374
+NameArray:0,Mac,4,Futura New Bold Reg
+NameArray:0,Win,1,Futura New Bold
+NameArray:0,Win,16,Futura New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-Regular
+FamilyName:Proxima Nova
+StyleName:Regular
+MenuName:Proxim Nova Regular
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ProximaNova-Regular
+WritingScript:Roman
+OutlineFileName:/Users/tural/Desktop/gardashlar/calendar Folder/Document fonts/ProximaNova-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:546784
+FileModTime:514961146
+NameArray:0,Mac,4,Proxima Nova Regular
+NameArray:0,Win,1,Proxim Nova Regular
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+

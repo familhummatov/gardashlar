@@ -1,0 +1,27 @@
+.product-quantity {
+  display: flex;
+  font: 14px ProximaNovaRegular;
+  align-items: center;
+  margin-top: 14px;
+  .counter {
+    margin-left: 11px;
+    border: 1px solid #b2b2b2;
+    border-radius: 31px;
+    width: 66px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 26px;
+    align-items: center;
+    .decrement {
+      cursor: pointer;
+    }
+    .count {
+      width: 25px;
+      display: flex;
+      justify-content: center;
+    }
+    .increment {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.color-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font: 14px ProximaNovaRegular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3b3b3b;
+    margin-right: 7px;
+  }
+  .pretty {
+    margin-right: 10px;
+    .state {
+      height: 18px;
+      label:after {
+        background-color: transparent !important;
+      }
+      label:before {
+        border: none;
+        left: -3px !important;
+        top: -3px !important;
+        width: 24px;
+        height: 24px;
+      }
+    }
+    input:checked ~ .state label:after {
+      background-color: transparent !important;
+    }
+    input:checked ~ .state label:before {
+      border: 1px solid #b2b2b2;
+    }
+  }
+}

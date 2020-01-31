@@ -1,0 +1,105 @@
+@include('./header.html')
+<section id="mass-media-2">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">KİV üçün</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="my-container">
+    <h3>KİV üçün</h3>
+    <div class="media-slider-nav">
+      @include('./slider-navbar.html')
+    </div>
+    <div class="company-images">
+      <div class="company-image">
+        <img class="company-img-itm" src="img/company-img.png" alt="" />
+        <button class="download-button">
+          <img src="img/download.png" alt="" />
+          <div class="downloaded">&nbsp;&nbsp;download</div>
+        </button>
+      </div>
+      <div class="company-image">
+        <img class="company-img-itm" src="img/company-img.png" alt="" />
+        <button class="download-button">
+          <img src="img/download.png" alt="" />
+          <div class="downloaded">&nbsp;&nbsp;download</div>
+        </button>
+      </div>
+      <div class="company-image">
+        <img class="company-img-itm" src="img/company-img.png" alt="" />
+        <button class="download-button">
+          <img src="img/download.png" alt="" />
+          <div class="downloaded">&nbsp;&nbsp;download</div>
+        </button>
+      </div>
+      <div class="company-image">
+        <img class="company-img-itm" src="img/company-img.png" alt="" />
+        <button class="download-button">
+          <img src="img/download.png" alt="" />
+          <div class="downloaded">&nbsp;&nbsp;download</div>
+        </button>
+      </div>
+    </div>
+    <div class="pagination">
+      <div class="sub-pagination">
+        <a class="pagination-link" aria-label="Previous" href="#">
+          <span aria-hidden="true">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="7"
+              viewBox="0 0 8 7"
+            >
+              <path
+                fill="#717171"
+                fill-rule="nonzero"
+                d="M8 2.917H2.286l2-2.042L3.429 0 0 3.5 3.429 7l.857-.875-2-2.042H8z"
+              />
+            </svg>
+          </span>
+        </a>
+        <ul class="pagination-ul">
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">1</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">2</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">3</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="#">...</a>
+          </li>
+        </ul>
+        <a class="pagination-link" aria-label="Next" href="#">
+          <span aria-hidden="true">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="7"
+              viewBox="0 0 8 7"
+            >
+              <path
+                fill="#717171"
+                fill-rule="nonzero"
+                d="M0 2.917h5.714l-2-2.042L4.571 0 8 3.5 4.571 7l-.857-.875 2-2.042H0z"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

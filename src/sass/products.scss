@@ -1,5 +1,8 @@
 #products,
-#news {
+#faq,
+#news,
+#mass-media-2,
+.suggestion-section {
   .my-container {
     max-width: 1100px;
     margin-left: auto;
@@ -128,123 +131,7 @@
       display: none;
     }
     #product-items {
-      .m25 {
-        margin-top: 25px;
-      }
       margin-top: 23px;
-      .product-item {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 268px;
-        height: 187px;
-        background-color: #f0f0f0;
-        img {
-          object-fit: contain;
-          margin: auto;
-          width: 100%;
-          height: 100%;
-        }
-        span {
-          background-color: #91c81a;
-          // width: 42px;
-          // height: 21px;
-          padding: 2px 7px;
-          font: 14px SourceSansProSemiBold;
-          display: flex;
-          justify-content: center;
-          color: #fff;
-          position: absolute;
-          left: 10px;
-        }
-        svg {
-          g {
-            circle {
-              transition: all 0.3s ease;
-            }
-          }
-        }
-        svg:hover {
-          g {
-            circle {
-              fill: #ed222a;
-            }
-          }
-        }
-        .zoom-btn {
-          position: absolute;
-          right: 7px;
-          bottom: 67px;
-        }
-        .favorite-btn {
-          position: absolute;
-          right: 7px;
-          bottom: 38px;
-        }
-        .chart-btn {
-          position: absolute;
-          right: 7px;
-          bottom: 9px;
-        }
-      }
-    }
-    .product-text {
-      margin-top: 15px;
-      .product-name {
-        h3 {
-          text-align: center;
-          color: #3b3b3b;
-          font: 16px HoeflerTextBlack;
-          line-height: 16px;
-        }
-      }
-      .see-more-btn {
-        margin-top: 8px;
-        display: flex;
-        justify-content: center;
-        a {
-          color: #3b3b3b;
-          font: 14px ProximaNovaMedium;
-        }
-      }
-    }
-  }
-  #pagination {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    .sub-pagination {
-      padding: 0 10px;
-      display: flex;
-      border: 1px solid #e0e0e0;
-      border-radius: 31px;
-      width: 158px;
-      height: 26px;
-      justify-content: space-between;
-      a {
-        display: flex;
-        align-items: center;
-        span {
-          display: flex;
-        }
-      }
-      .pagination {
-        width: 90px;
-        display: flex;
-        justify-content: space-between;
-        .pagination-item {
-          a {
-            display: flex;
-            align-items: center;
-            font: 14px ProximaNovaRegular;
-            color: #3b3b3b;
-            height: 100%;
-            span {
-              display: flex;
-            }
-          }
-        }
-      }
     }
   }
 }

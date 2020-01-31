@@ -1,0 +1,53 @@
+.slider-navbar {
+  margin-bottom: 1.5rem;
+  .owl-carousel {
+    a {
+      font: 14px ProximaNovaRegular;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #3b3b3b;
+    }
+    a:hover {
+      color: #76a313;
+    }
+    .owl-nav {
+      button {
+        position: absolute;
+        top: 7px;
+        outline: none;
+        width: 14px;
+        height: 14px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: auto !important;
+          margin: 0;
+        }
+      }
+      .owl-prev {
+        left: -35px;
+      }
+      .owl-next {
+        right: -35px;
+      }
+      button:hover {
+        background-color: transparent;
+      }
+    }
+    .owl-stage{
+      white-space: nowrap;
+      display: flex;
+    }
+    .owl-dots{
+      display: none;
+      button{
+        outline: none;
+      }
+    }
+  }
+}

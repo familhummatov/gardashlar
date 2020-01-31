@@ -1,0 +1,42 @@
+.project-item {
+  position: relative;
+  height: 289px;
+  width: 97%;
+  margin-top: 15px;
+  .project-item-img {
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .project-item-name {
+    padding: 15px 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    h3 {
+      font: 24px HoeflerTextBlack;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.04;
+      letter-spacing: normal;
+      color: rgba($color: #000000, $alpha: 0.8);
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    a {
+      font: 14px ProximaNovaRegular;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: rgba($color: #000000, $alpha: 0.8);
+    }
+  }
+}

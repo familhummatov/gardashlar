@@ -1,0 +1,42 @@
+@include('./header.html')
+<section id="cart">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">Səbət</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="cart-container">
+    <div class="d-flex justify-content-between align-items-center ml-1">
+      <h3 class="cart-title">Səbət: <span>3</span></h3>
+      <button class="clear-bag-btn">
+        <img src="img/close-btn.svg" alt="" /> clear bag
+      </button>
+    </div>
+    <div class="delivery ml-1">
+      <h4>Delivery: <span>1 - 3</span> days</h4>
+      <p>
+        Note: Subject to placing your order before specific cut-off times.
+        Details available in checkout.
+      </p>
+    </div>
+    <div class="cart-items">
+      @include('./cart-item.html') @include('./cart-item.html')
+      @include('./cart-item.html') @include('./cart-item.html')
+      @include('./cart-item.html') @include('./cart-item.html')
+    </div>
+    <div class="checkout-btn">
+      <button><a href="cart-checkout.html">checkout</a></button>
+    </div>
+  </div>
+</section>
+@include('./footer.html')

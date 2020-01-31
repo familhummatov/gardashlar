@@ -1,26 +1,23 @@
-$(".product-slider .owl-carousel").owlCarousel({
+$(".similar-products .owl-carousel").owlCarousel({
   loop: false,
   margin: 10,
-  nav: false,
-  items: 1
-});
-
-$(".similar-products .owl-carousel").owlCarousel({
-  loop: true,
-  margin: 10,
   nav: true,
-  dots: false,
+  dots: true,
+  navText: [
+    '<img src="img/left-arrow.png"/>',
+    '<img src="img/right-arrow.png"/>'
+  ],
   responsive: {
     0: {
       items: 1
     },
-    768: {
+    500: {
       items: 2
     },
-    992: {
+    768: {
       items: 3
     },
-    1200: {
+    1000: {
       items: 4
     }
   }
@@ -51,15 +48,28 @@ $(".slider-container .owl-carousel").owlCarousel({
   }
 });
 
-$(".new-container .owl-carousel").owlCarousel({
+$(".about-slider-nav .slider-navbar .owl-carousel").owlCarousel({
   loop: false,
   margin: 20,
   nav: true,
-  dots: false,
+  dots: true,
   navText: [
     '<img src="img/left-arrow.png"/>',
     '<img src="img/right-arrow.png"/>'
   ],
   autoWidth: true,
-  items: 5
+  items: 3
+});
+
+$(".media-slider-nav .slider-navbar .owl-carousel").owlCarousel({
+  loop: false,
+  margin: 20,
+  nav: true,
+  dots: true,
+  navText: [
+    '<img src="img/left-arrow.png"/>',
+    '<img src="img/right-arrow.png"/>'
+  ],
+  autoWidth: true,
+  items: 10
 });

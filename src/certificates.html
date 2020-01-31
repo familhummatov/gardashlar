@@ -1,0 +1,45 @@
+@include('./header.html')
+<section id="certificates">
+  <div class="brdcrumb">
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs_item">
+        <a href="#">
+          <span class="breadcrumbs_text">Home</span>
+          <img src="img/breadcrumb_arrow.svg" alt="" />
+        </a>
+      </li>
+      <li class="breadcrumbs_item">
+        <a class="brdcrmb-active" href="#">
+          <span class="breadcrumbs_text">Uğurlar / Sertifikatlar</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="certifiates-container">
+    <h3>Uğurlar / Sertifikatlar</h3>
+    <div class="about-slider-nav">
+      @include('./slider-navbar.html')
+    </div>
+    <div class="certificate-items">
+      <div class="certificate-item">
+        <div class="certificate-img">
+          <img src="img/certificate.jpg" alt="" />
+        </div>
+        <h4 class="title">Uğurlar</h4>
+        <a class="seemore" href="certificates-internal.html"
+          >see more <img src="img/arrow-right.png" alt="" />
+        </a>
+      </div>
+      <div class="certificate-item">
+        <div class="certificate-img">
+          <img src="img/certificate.jpg" alt="" />
+        </div>
+        <h4 class="title">Uğurlar</h4>
+        <a class="seemore" href="certificates-internal.html"
+          >see more <img src="img/arrow-right.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+@include('./footer.html')
